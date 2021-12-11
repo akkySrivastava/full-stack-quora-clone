@@ -1,0 +1,19 @@
+.quora {
+  width: "100%";
+  min-width: fit-content;
+}
+
+.quora__contents {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  min-width: fit-content;
+  width: 100%;
+}
+
+.quora__content {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+}
