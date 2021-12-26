@@ -118,3 +118,116 @@
   color: #222;
   background: rgb(214, 214, 214);
 }
+
+.modal__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.modal__title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal__title > h5:hover {
+  color: #b92b27;
+}
+
+.modal__info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.modal__info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.modal__info > .modal__scope {
+  display: flex;
+  align-items: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal__Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal__Field > .modal__fieldLink {
+  color: gray;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal__Field > .modal__fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal__buttons {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal__buttons > .cancle {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal__buttons > .cancle:hover {
+  color: red;
+}
+
+.modal__buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  background-color: #222;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.modal__buttons > .add:hover {
+  background-color: #eee;
+  color: #222;
+}
+
+@media only screen and (max-width: 600px) {
+  .qHeader__icons {
+    display: none;
+  }
+
+  .qHeader__input {
+    display: none;
+  }
+}
